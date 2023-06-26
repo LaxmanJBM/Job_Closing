@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Browser extends CommonFile{
 	
-	
+//Job Closing Journal	
 	protected static WebDriver driver;
 
 	public void initilization() throws Exception {
