@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-26T10:58:18 IST" name="Default suite" finished-at="2023-06-26T10:59:02 IST" duration-ms="43898">
+  <suite started-at="2023-06-28T11:41:07 IST" name="Default suite" finished-at="2023-06-28T11:41:53 IST" duration-ms="45989">
     <groups>
     </groups>
-    <test started-at="2023-06-26T10:58:18 IST" name="Default test" finished-at="2023-06-26T10:59:02 IST" duration-ms="43898">
+    <test started-at="2023-06-28T11:41:07 IST" name="Default test" finished-at="2023-06-28T11:41:53 IST" duration-ms="45989">
       <class name="JobCloseTest.JobCloseT">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JobCloseTest.JobCloseT@353d0772]" started-at="2023-06-26T10:58:18 IST" name="setup" finished-at="2023-06-26T10:58:52 IST" duration-ms="33078" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JobCloseTest.JobCloseT@353d0772]" started-at="2023-06-28T11:41:07 IST" name="setup" finished-at="2023-06-28T11:41:42 IST" duration-ms="34911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="data()[pri:0, instance:JobCloseTest.JobCloseT@353d0772]" started-at="2023-06-26T10:58:52 IST" name="data" finished-at="2023-06-26T10:59:02 IST" duration-ms="10776" status="FAIL">
+        <test-method signature="data()[pri:0, instance:JobCloseTest.JobCloseT@353d0772]" started-at="2023-06-28T11:41:42 IST" name="data" finished-at="2023-06-28T11:41:53 IST" duration-ms="10988" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : Some jobs cannot be closed; please check in Withheld list}
-  (Session info: chrome=114.0.5735.134): Some jobs cannot be closed; please check in Withheld list
+  (Session info: chrome=114.0.5735.199): Some jobs cannot be closed; please check in Withheld list
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-VC8FMVO', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd75ceadce0d6e9af1b76e79dcde0644, findElement {using=xpath, value=//img[@title='Save (Alt + Ctrl + S)']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62175/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd75ceadce0d6e9af1b76e79dcde0644]]>
+Command: [428df02839b2817bbbc33151bfd88e75, findElement {using=xpath, value=//img[@title='Save (Alt + Ctrl + S)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54883/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428df02839b2817bbbc33151bfd88e75]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Some jobs cannot be closed; please check in Withheld list}
-  (Session info: chrome=114.0.5735.134): Some jobs cannot be closed; please check in Withheld list
+  (Session info: chrome=114.0.5735.199): Some jobs cannot be closed; please check in Withheld list
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-VC8FMVO', ip: '172.31.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd75ceadce0d6e9af1b76e79dcde0644, findElement {using=xpath, value=//img[@title='Save (Alt + Ctrl + S)']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62175/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd75ceadce0d6e9af1b76e79dcde0644
+Command: [428df02839b2817bbbc33151bfd88e75, findElement {using=xpath, value=//img[@title='Save (Alt + Ctrl + S)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54883/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428df02839b2817bbbc33151bfd88e75
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
@@ -79,7 +79,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- data -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:JobCloseTest.JobCloseT@353d0772]" started-at="2023-06-26T10:59:02 IST" name="exit" finished-at="2023-06-26T10:59:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="exit()[pri:0, instance:JobCloseTest.JobCloseT@353d0772]" started-at="2023-06-28T11:41:53 IST" name="exit" finished-at="2023-06-28T11:41:53 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

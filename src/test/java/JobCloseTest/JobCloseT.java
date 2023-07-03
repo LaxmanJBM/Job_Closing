@@ -53,6 +53,7 @@ public class JobCloseT extends Browser {
 	
 		jb2.basicDetails(exec);
 		jb2.saveBtn();
+		System.out.println("*** JOB CLOSING DONE : "+exec+" ***");
 
 }
 		
