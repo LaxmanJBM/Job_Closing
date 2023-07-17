@@ -89,6 +89,7 @@ public class JobClose2 extends Browser{
 //Transaction Date
 					String traDate = celldata.getCell(3).getStringCellValue();
 					Thread.sleep(1000);
+					tranDate.clear();
 					JavascriptExecutor js=(JavascriptExecutor)driver;
 					js.executeScript("arguments[0].value='"+traDate+"'", tranDate);
 					
@@ -127,32 +128,32 @@ public class JobClose2 extends Browser{
 					
 					String jobref = celldata.getCell(9).getStringCellValue();
 					Thread.sleep(1000);
+					jobRef.clear();
 					JavascriptExecutor js1=(JavascriptExecutor)driver;
 					js1.executeScript("arguments[0].value='"+jobref+"'", jobRef);
 					
 //Remarks
 					String rem = celldata.getCell(10).getStringCellValue();
+					remarks.clear();
 					Thread.sleep(1000);
 					remarks.sendKeys(rem);
 					
 //Show Details
 					Thread.sleep(1500);
+					try {
 					showBtn.click();
-
-	}	
+					driver.switchTo().alert().accept();}
+					catch(Exception e) {Thread.sleep(1000);}}
 				}	
-				
 				catch(NullPointerException e) {
 					System.out.println("Exception of loop ="+e);}			
 	}
 	}
-		
 		public void saveBtn() throws Exception{
-			
 			Thread.sleep(1000);
-			
+			try {
 			saveBtn.click();
-			
-		}
-						
+			driver.switchTo().alert().accept();}
+			catch(Exception e) {Thread.sleep(1000);}	
+		}					
 }

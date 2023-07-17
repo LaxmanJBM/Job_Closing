@@ -61,7 +61,7 @@ public class JobCloseT extends Browser {
 	
 	@AfterMethod()
 	public void exit() {
-	//	driver.close();
+		driver.close();
 	}
 
 }
